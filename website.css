@@ -1,0 +1,373 @@
+*
+{
+	font-family: Helvetica;
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+
+
+}
+
+
+.number
+{
+	color: #2275AC;
+
+}
+
+.nav_links
+{
+	list-style-type: none;
+	font-size: 13px;
+
+}
+.number:hover
+{
+	text-decoration: underline;
+	color: #0E86D4;
+	cursor: pointer;
+}
+
+.nav_links li
+{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 40px;
+	padding: -15px;
+
+}
+
+nav
+{
+	min-height: 7vh;
+	width: 100%;
+	background-color: black;	
+}
+
+.questions
+{
+	color: grey;
+}
+
+
+#trusted_clients
+{
+	font-size: 36px;
+	font-weight: bolder;
+	font-stretch: 12px;
+}
+
+#phone_image
+{
+	position: relative;
+	left: 37px;
+	top: 2px;
+}
+#mail_icon
+{
+	position: relative;
+	left: 37px;
+	top: 2px;
+}
+
+.navigation_links
+{
+	float: right;
+	margin-top: -30px;
+	margin-right: 78px;
+
+}
+.navigation_links li
+{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 24px;
+   
+}
+.fa:hover
+{
+	color: white !important;
+	cursor: pointer;
+}
+
+.logo
+{
+	margin-left: 100px;
+	margin-top: -30px;
+}
+.components
+{
+	float: right;
+	margin-top: -30px;
+}
+
+.components li
+{
+	display: inline-block;
+	font-size: 15px;
+	margin-right:14px;
+	border-right: 1px #808080 solid;
+	padding: 0 8px;
+	cursor: pointer;
+	border-top: 3px solid transparent;
+}
+
+.components_list li:last-child
+{
+  border-right: none;
+
+}
+
+.about_us
+{
+	font-size: 36px;
+	background-color: #4A5485;
+	color: white;
+    min-height: 10vh;
+    position: relative;
+    text-align: justify;
+    width: 702px;
+    font-weight: bold;
+}
+
+#about_us
+{
+	float: right;
+	position: absolute;
+	right: 40px;
+	top: 782px;
+	height: 340px;
+	width: 45%;
+}
+
+.text
+{
+	text-align: justify;
+	margin-left: 50px;
+	font-size: 17px;
+}
+
+.cater
+{
+	background-color: #E5E4E2;
+	float: right;
+	height: 60vh;
+	width: 100%;
+
+}
+.cater li
+{
+	display: inline-block;
+	padding: 0 80px;
+	position: relative;
+	top: 50px;
+}
+
+.connect
+{
+	padding: 12px 50px;
+	color: white;
+	font-size: 20px;
+	background-color: #278ACB;
+	border: none;
+	border-radius: 5px;
+	position: relative;
+	bottom: 200px;
+	left: 80px;
+	
+}
+.connect:hover
+{
+  moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+   background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+ .counters
+ {
+ 	background-color:black;
+ 	height: 60vh;
+ 
+	
+ }
+
+ .column
+ {
+ 	display: inline-block;
+ 	position: relative;
+ 	top: -10px;
+ 	padding: 100px;
+ 	color: white;
+ 	
+ }
+
+.container {
+	float: right;
+  width: 30%;
+  display: block;
+ 
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+
+
+
+
+.choose
+{
+	font-size: 250%;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+.first
+{
+	float: left;
+
+}
+.first img
+{
+	display: inline;
+}
+footer
+{
+	background-color: #545454;
+	height:89vh;
+}
+
+.left-side
+{
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.quick_links
+{
+	float: right;
+	position: relative;
+	right: 820px;
+	bottom: 200px;
+	top: -210px;
+}
+.contact_us
+{
+	margin-left: 2px;
+	list-style-type: none;
+	color: #C5C5C5;
+	margin-top: 25px;
+}
+
+.contact_us li
+{
+	cursor: pointer;
+	font-size: 14px;
+	margin-left: -12px;
+
+}
+.contact_us li:hover
+{
+	text-decoration: underline;
+}
+
+
+	
+
+#copyright
+{
+	color: #C5C5C5;
+	margin-left: 80px;
+	margin-top: 200px;
+}
+
+
+.icons
+{
+	float: right;
+	position: relative;
+	left: 450px;
+	top: -30px;
+}
+.navigate_links
+{
+	float: right;
+	margin-top: -20px;
+	margin-right: 90px;
+}
+
+.navigate_links li
+{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 30px;
+	padding: -2px;
+}
+
+
+
+.countries
+{
+	margin-left: 20px;
+	font-size: 20px;
+	color: #2890D5;
+
+}
+
+.counter
+{
+	margin-left: 30px;
+	font-size: 80px;
+	margin-top: -37px;
+}
+
+
+.image_row
+{
+	position: relative;
+	top: -50px;
+	margin-left: 11px;
+}
+
+.counters
+ {
+ 	background-color:black;
+ 	height: 60vh;
+ 
+	
+ }
+
+ .column
+ {
+ 	display: inline-block;
+ 	position: relative;
+ 	top: -10px;
+ 	padding: 100px;
+ 	color: white;
+ 	margin-left: -30px;
+ 	
+ }
+
+.container {
+	float: right;
+  width: 30%;
+  display: block;
+ 
+}
